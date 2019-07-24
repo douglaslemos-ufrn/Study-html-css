@@ -1,0 +1,48 @@
+.tabelademusicas{
+    width: 50%;
+    border: solid 4px;
+    position: absolute;
+    top:0; bottom: 0; right: 0; left:0; 
+    margin: auto;
+    color:white;
+}
+
+td{
+    border: solid 2px;
+}
+
+tr:hover{
+    background-color: aqua;
+    color: black;
+}
+
+thead{
+    background-color: dodgerblue;
+}
+
+.rank{
+    text-align: center;
+}
+
+h1,h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: aliceblue
+}
+
+body{
+    background-image: url(tela.jpg) ;
+    background-size: 100%,100%; 
+}
+
+.gif{
+    height: 150px ;
+    width: 150px;
+    border:  groove 20px cornflowerblue;
+    background-size: 100%,100%; 
+    background-image: url(bart.gif);
+    position: absolute;
+    bottom: 18px; right: 0; left:0; 
+    margin: auto;
+
+}
