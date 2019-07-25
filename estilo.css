@@ -9,11 +9,27 @@
 
 td{
     border: solid 2px;
+    
 }
 
-tr:hover{
+td a{
+    padding-left: 0px;
+    padding-right: 55px;
+    text-decoration: none;
+    color:white;
+  }
+
+tr:hover {
     background-color: aqua;
     color: black;
+    text-decoration: none;
+    
+}
+
+tr:hover a{
+    background-color: aqua;
+    color: black;
+    text-decoration: none;    
 }
 
 thead{
@@ -24,6 +40,8 @@ thead{
     text-align: center;
 }
 
+
+
 h1,h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
@@ -31,18 +49,18 @@ h1,h3{
 }
 
 body{
-    background-image: url(tela.jpg) ;
+    background-image: url(tela.jpg);
     background-size: 100%,100%; 
 }
 
 .gif{
-    height: 150px ;
-    width: 150px;
+    height: 100px ;
+    width: 100px;
     border:  groove 20px cornflowerblue;
     background-size: 100%,100%; 
     background-image: url(bart.gif);
     position: absolute;
-    bottom: 18px; right: 0; left:0; 
+    bottom:15px; right: 0; left:0; 
     margin: auto;
 
 }
